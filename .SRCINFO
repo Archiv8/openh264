@@ -1,0 +1,16 @@
+pkgbase = openh264
+	pkgdesc = OpenH264 is a codec library which supports H.264 encoding and decoding
+	pkgver = 2.1.1
+	pkgrel = 1
+	url = http://www.openh264.org/
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	license = BSD
+	makedepends = nasm
+	depends = gcc-libs
+	source = https://github.com/cisco/openh264/archive/v2.1.1.tar.gz
+	sha256sums = af173e90fce65f80722fa894e1af0d6b07572292e76de7b65273df4c0a8be678
+
+pkgname = openh264
+
